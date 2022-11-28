@@ -9,7 +9,8 @@ export const zhSidebar = sidebar({
     //  CSS 侧边栏
     "/frontend/02-CSS/": [cssSidebar],
     //  c 侧边栏栏
-    "/backend/c": [cSidebar]
+    "/backend/c": [cSidebar],
+    "/demo/": []
 })
 
 
