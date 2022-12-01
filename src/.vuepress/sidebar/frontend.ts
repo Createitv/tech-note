@@ -1,23 +1,3 @@
-export const tsSidebar = {
-  text:        'TypeScript简介',
-  icon:        'add',
-  link:        '/frontend/04-TS/introduction/',
-  prefix:      '/frontend/04-TS/introduction/',
-  collapsable: true,
-  children:    [
-    {
-      text: '什么是TypeScript',
-      icon: 'advance',
-      link: 'what-is-typescript',
-    },
-    {
-      text: '安装TypeScript',
-      icon: 'advance',
-      link: 'get-typescript',
-    },
-  ],
-};
-
 export const cssSidebar = {
   text:        'CSS简介',
   icon:        'css',
@@ -82,3 +62,39 @@ export const cssSidebar = {
     }
   ],
 };
+
+export const tsSidebar = {
+  text:        'TypeScript简介',
+  icon:        'add',
+  link:        '/frontend/04-TS/introduction/',
+  prefix:      '/frontend/04-TS/introduction/',
+  collapsable: true,
+  children:    [
+    {
+      text: '什么是TypeScript',
+      icon: 'advance',
+      link: 'what-is-typescript',
+    },
+    {
+      text: '安装TypeScript',
+      icon: 'advance',
+      link: 'get-typescript',
+    },
+  ],
+};
+
+
+export const engineeringSidebar = {
+  text:        '工程化',
+  icon:        'any',
+  link:        '/frontend/05-Engineering/Template/', // 05-Engineering/Template
+  prefix:      '/frontend/05-Engineering/Template/',
+  collapsable: true,
+  children:    [
+    {
+      text: 'Nuxt3 Tailwind Template',
+      icon: 'any',
+      link: 'nuxt3-tailwind-starter',
+    }
+  ]
+}
